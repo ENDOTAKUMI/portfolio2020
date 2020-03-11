@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
 
 #hero {
     width: 100%;
@@ -13,4 +18,28 @@
 #hero-title {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
+}
+
+#profile {
+    padding: 100px 0 100px 0;
+    text-align: center;    
+}
+
+#profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#profile-name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+}
+
+#profile-text {
+    max-width: 450px;
+    margin: 0 auto;
+    word-wrap: break-word;
 }
