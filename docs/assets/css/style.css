@@ -105,7 +105,6 @@ h4 {
     justify-content: center;
 }
 
-
 .works-content {
     width: 280px;
     height: 360px;
@@ -147,11 +146,11 @@ h4 {
 
 #works a {
     color: #0000FF;
-    transition: color 0.3s;
 }
 
 #works a:hover {
     color: #ff7043;
+    transition: color 0.3s;
 }
 
 .works-tag {
