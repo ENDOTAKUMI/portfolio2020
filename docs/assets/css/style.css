@@ -238,3 +238,11 @@ h4 {
 .contacts-icon:hover {
     opacity: 0.6;
 }
+
+footer {
+    height: 100px;
+    padding-top: 80px;
+    text-align: center;
+    background-color: #3B3B3B;
+    color: #eeeeee;
+}
