@@ -188,3 +188,53 @@ h4 {
     text-align: left;
     list-style: none;
 }
+
+#contacts {
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+.contacts-a-mail{
+    display: inline-block;
+    border: 2px solid #7096a5;
+    font-size: 16px;
+    color: #7096a5;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 50px;
+    border-radius: 4px;
+}
+
+.contacts-a-mail:hover {
+    background-color: #7096a5;
+    border-color: #7096a5;
+    color: #FFF;
+    transition: .4s;
+}
+
+.contacts-or {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contacts-box {
+    display: flex;
+    align-items:stretch; 
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.contacts-content {
+    width: 200px;
+    margin: 10px;
+}
+
+.contacts-icon {
+    font-size: 80px;
+    color: black;
+}
+
+.contacts-icon:hover {
+    opacity: 0.6;
+}
