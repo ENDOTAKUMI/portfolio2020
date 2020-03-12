@@ -83,6 +83,7 @@ h4 {
     max-width: 450px;
     margin: 0 auto;
     word-wrap: break-word;
+    text-align: left;
 }
 
 #skills {
