@@ -190,6 +190,19 @@ h4 {
     list-style: none;
 }
 
+.articles-list li {
+    padding: 10px 0 10px 0;
+}
+
+.articles-list a {
+    color: #0000FF;
+}
+
+.articles-list a:hover {
+    color: #ff7043;
+    transition: color 0.3s;
+}
+
 #contacts {
     text-align: center;
     padding: 100px 0 100px 0;
