@@ -1,4 +1,5 @@
-# README.md
+![GitHub](https://user-images.githubusercontent.com/33868170/76594202-c9b85c80-653b-11ea-81a0-e3de5b7a1951.png)
+
 ## 概要
 遠藤拓巳のポートフォリオサイト（2020年版）
 
@@ -32,5 +33,8 @@ https://github.com/ENDOTAKUMI/portfolio2020.git
 
 - hotfix-*
 現在の製品バージョンのバグフィックス用。masterから分岐し、developとmasterへマージする。
+
+- edit-readme
+README.mdの更新用。masterから分岐し、masterへマージする。
 
 ＊はチケット番号
