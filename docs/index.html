@@ -19,6 +19,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript" src="assets/script/scroll.js"></script>
         <script type="text/javascript" src="assets/plugin/slick/slick.min.js"></script>
+        <script type="text/javascript" src="assets/script/slick.js"></script>
         
         <meta name="description" content="遠藤拓巳のポートフォリオサイトです。">
         <meta name="keywords" content="ポートフォリオサイト,エンジニア,Android,Kotlin,PHPerKaigi,KotlinFest,遠藤拓巳">
@@ -106,7 +107,10 @@
                 </div> 
             </div>
              
-             <div>
+            <div id="picture">
+                <div class="h3-heading1">
+                    <div class="h3-heading2"><h3>PICTURE</h3></div>
+                </div>
                 <ul class="slider slider1">
                     <li><a href=""><img src="assets/image/slide_001.jpg" alt="image001"></a></li>
                     <li><a href=""><img src="assets/image/slide_001.jpg" alt="image001"></a></li>
@@ -151,17 +155,5 @@
         <footer id="footer">
             <p>&copy; 2020 Endo Takumi</p>
         </footer>
-        
-        <script>
-                jQuery(function($){
-                    $('.slider').each(function(){
-                        $(this).slick({
-                            autoplay:true,
-                            autoplaySpeed:5000,
-                            dots:true,
-                        });
-                    });	
-                });	
-            </script>
     </body>
 </html>
