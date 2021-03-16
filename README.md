@@ -4,7 +4,7 @@
 遠藤拓巳のポートフォリオサイト（2020年版）
 
 ## アクセス
-https://endo-takumi.com/
+https://endotakumi.github.io/
 
 ## 動作環境
 以下のブラウザでテストしています。
