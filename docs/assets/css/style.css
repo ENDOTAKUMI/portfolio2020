@@ -1,40 +1,16 @@
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    line-height: 140%;
 }
 
-
-.h3-heading1 .h3-heading2 {
-    width: 500px;
-    margin: 0 auto;
-    padding: 10px 0;
-    font-family: sans-serif;
-    font-size: 20px;
-    color:#3cb3e4;
-    
-    
-    border-top: 3px solid #3cb3e4;
-    border-bottom: 3px solid #3cb3e4;
-    padding: 5px 20px;
-    position: relative;
-    width: 300px;
+h3 {
     text-align: center;
-    margin: 30px auto;
-    color: #3cb3e4;
-    font-weight: bold;
-}
-
-.h3-heading1 .h3-heading2:before {
-    content: "";
-    border-left: 3px solid #3cb3e4;
-    border-right: 3px solid #3cb3e4;
-    display: block;
-    position: absolute;
-    width: calc(100% - 20px);
-    height: 50px;
-    top: -8px;
-    left: 8px;
-}
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    border-bottom: solid 3px black;
+  }
 
 
 h4 {
@@ -147,6 +123,14 @@ h5 {
     height: 158px;
 }
 
+.works-img-no {
+    padding-bottom: 5px;
+    margin-top: 10px;
+    width: 280px;
+    height: 144px;
+    background-color: #D8D5D2;
+}
+
 .works-title {
     font-size: 24px;
     font-weight:bolder;
@@ -155,7 +139,8 @@ h5 {
 .works-text {
     border-top: 1px #aaaaaa solid;
     font-size: 14px;
-    color: #999;
+    color: #000;
+    text-align: left;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 8;
